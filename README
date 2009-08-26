@@ -6,3 +6,8 @@ TODO:
     - aliases 'console.log' and 'cl'
     - honk should accept multiple attributes, ie "honk(a,b,3,[1,2,{:a+>4}], ...)"
     - implement additional methods for console.info, console.error, group and so on ?
+    - honk do |name|
+        @date1 = Date.parse(...)
+        @date2 = Date.parse(...)
+      end
+      must output all instance variables from block in group(collapsed/expanded?)
