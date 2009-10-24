@@ -1,7 +1,3 @@
-## [Handcar](http://inem.github.com/handcar.html) ##
-
-## Overview ##
-
 Have you ever wanted to type console.log() in your rails app?  
 
     def index
@@ -9,20 +5,15 @@ Have you ever wanted to type console.log() in your rails app?
       console.log(@people)
     end
 
-Handcar lets you to push data from your rails application to firebug console
+Handcar lets you to push data from your rails application to firebug console.
 
-- It is useful when you do not want to deal with ruby debugger in simple cases
-- No more every-minute switching from firefox/firebug to shell and logs scrolling looking for needed piece of data
-
-[Just grab the plugins!](http://inem.github.com/handcar.html)
-
-## Features ##
+## In Action ##
 
 - Here is your action:  
 
         def index
             honk('Handcar is ruby on rails console for your firebug')
-            honk(['this is stirng',2,{:hash_in => 'Array'},5,6])
+            honk(['this is string',2,{:hash_in => 'Array'},5,6])
             honk(nil)
             honk(2)
             honk({:simple_hash => {:hash_in => 'Hash'}, :in => ''})
@@ -36,7 +27,7 @@ I think you have got the idea
 
 ## Installation ##
 
-Handcar has two incarnations: rails plugin & firefox plugin.  
+Handcar has two parts: rails plugin & firefox plugin.  
 Both had to be installed:
 
 - [Firefox extention](http://inem.github.com/plugins/handcar.xpi)
